@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CGEvent::Object::CIteration" Collapsed="true">
+    <Position X="0.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAQAICABAAAAAASARaAAAAAqAAAQAAAIIAAAQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventObjectIteration.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGEvent::Object::CIterationFunction&lt;TFUNCTION&gt;" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAEAACAAIAgCA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventObjectIterationFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGEvent::Object::COnce" Collapsed="true">
+    <Position X="8.75" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAICAAQAACADAAAAAAAAAKAAAAAIgAAwAAAAAABQQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventObjectOnce.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGEvent::Object::COnceFunction&lt;TFUNCTION&gt;" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACAIAAAAAAAAAAAAKAAAAAAAAAAAAQAAAAAAgAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventObjectOnceFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGEvent::Object::CSchedule" Collapsed="true">
+    <Position X="11.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJAAAQABiABAAAADAAAAKAAAAAIAgAQAAAAEACIQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventObjectSchedule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGEvent::Object::CScheduleFunction" Collapsed="true">
+    <Position X="14.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAALAAAQABiABAAAACAAAAKAAAAAIAgASAAAAAACIQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventObjectScheduleFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGEvent::Object::CStartEnd" Collapsed="true">
+    <Position X="4.75" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAIAAAQAAiABIAQAAQQAAKAIAEAYAAAQAAAABAgAQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventObjectStartEnd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGEvent::Object::CStartEndFunction&lt;TFUNCTION&gt;" Collapsed="true">
+    <Position X="3.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACRAAAAAAAAAAEAAiAAAAAAEAQAAAQAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventObjectStartEndFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGEvent::Object::CStartIterationEnd" Collapsed="true">
+    <Position X="6" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAIAEAQACCABAAAAABKABKAAARAuAAAYAAAIIAAAQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventObjectStartIterationEnd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGEvent::Object::CStartIterationEndFunction&lt;TFUNCTION&gt;" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACACRAAAAAAAAgAEAgCAACAAAEAQAAAAAAAAIAgCA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventObjectStartIterationEndFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGEventObject" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BABEYgxAwAADgBAIIgAAEyAKABAlAYCRAZACJgCAEiQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\ICGEventObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EVENT_SCHEDULE" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAACAAAAAAAACQAAAAgAAiAAAAAgAIAAQAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\EVENT_SCHEDULE.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGEvent::ISchedule" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\ICGEventSchedule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGEvent::Manager" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIRAAEACoBAAAAAAIIAABIAQBQkABISIAiAQAAEBgIQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="EVENT_INFO" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIABFAAAAIAAAAIQAAAABkAAAAAAAEAABgAAAAKAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGServerDefinitionsEvent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGEvent::Schedule::CFunction" Collapsed="true">
+    <Position X="5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAACAAAAAAAAAAAAAAAAEAAgAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventScheduleFunction.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGEvent::Schedule::CLambda" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAACAAAAAAAAAAAAAAAAEAAgAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventScheduleLambda.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGEvent::Schedule::CMemberFunction&lt;TCLASS&gt;" Collapsed="true">
+    <Position X="2.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAIAAAACAAAAAAAAAAAEAAAAEAAgAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGEventScheduleMemberFunction.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="LPEVENT_SETTER" Collapsed="true">
+    <Position X="5.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGServerDefinitionsEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPEVENT_STATE" Collapsed="true">
+    <Position X="1.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGServerDefinitionsEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPEVENT_TYPE" Collapsed="true">
+    <Position X="9.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGServerDefinitionsEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPEVENT_INFO" Collapsed="true">
+    <Position X="9.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGServerDefinitionsEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EVENT_FUNCTION" Collapsed="true">
+    <Position X="17.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGServerDefinitionsEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EVENT_LAMBDA" Collapsed="true">
+    <Position X="19.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGServerDefinitionsEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="EVENT_SETTER" Collapsed="true">
+    <Position X="5.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAABBAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGServerDefinitionsEvent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EVENT_STATE" Collapsed="true">
+    <Position X="1.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAgAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGServerDefinitionsEvent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EVENT_TYPE" Collapsed="true">
+    <Position X="9.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACAAAgAAAAAAAQAAAAAAAAABAAAAIIAAAAAABAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\Server\Server\CGServerEventClasses\CGServerDefinitionsEvent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Malgun Gothic" Size="9" />
+</ClassDiagram>

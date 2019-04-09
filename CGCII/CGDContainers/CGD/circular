@@ -1,0 +1,127 @@
+//*****************************************************************************
+//*                                                                           *
+//*                      Cho sanghyun's Game Classes II                       *
+//*                       Ver 6.1 / Release 2012.05.28                        *
+//*                                                                           *
+//*                           Data Template Classes                           *
+//*                                                                           *
+//*                                                                           *
+//*                                                                           *
+//*                                                                           *
+//*  This Program is programmed by Cho SangHyun. sangducks@gmail.com          *
+//*  Best for Game Developement and Optimized for Game Developement.          *
+//*                                                                           *
+//*                   (C) 2008 CGLabs All right reserved.                     *
+//*                           http://www.CGDK.co.kr                           *
+//*                                                                           *
+//*****************************************************************************
+
+#pragma once
+//-----------------------------------------------------------------------------
+//
+// CGD::circular<T>
+//
+// 1. circular란!
+//     std::deque를 대체하기 위해 제작된 class이다.
+//    동작적인 특징은 deque과 거의 유사하지만 std::deque이 좀더 유리한 상황은 
+//    존재하므로 선택적인 사용이 필요하다.
+//
+//	  1) 대략적인 특징은 다음과 같다.
+//       - 환영으로 동작하는 Array(vector)이다.
+//       - list와 같은 상수시간 양방향 push/pop을 지원하며
+//         vector와 비슷한 수준으로 빠르다.(std::vector보다 빠르다.)
+//       - array와 같은 random access를 제공한다.
+//       - size는 항상 2의 배수로만 늘어나고 설정할 수 있다.
+//
+//    2) deque와의 동질성.
+//       - Deque와 같이 random access operator를 제공한다.
+//       - push/pop을 front와 back에서 모두 상수 시간에 할수 있어 queue의 제작에
+//         많이 사용된다.
+//       - 중간에 값을 제거하는데 선형 시간이 소모된다.
+//
+//    3) deque과의 차이.
+//       * 장점.
+//         - deque에 비해 매우 빠른 push와 pop을 제공한다.
+//         - deque보다 빠른 iteration을 제공한다.
+//         - dequepush/pop을 수행하는 경우 할때마다 조금씩 allocation을
+//           수행하므로 queue로 동작할 때 역시 계속 allocation과 deallocation이
+//           발생한다.
+//
+//       * 단점.
+//         - circular는 reserve를 기반으로 하는 container인데 비해 deque는 
+//           동적인 할당을 기반으로하는 container란 것이 다르다.
+//         - circular의 경우 vector와 같이 reserve된 크기 이상으로 사용하기 
+//           전에는 아무런 부하가 들지 않는다. 단 reserver된 크기 이상으로 
+//           커질 경우 buffer를 expand시 vector와 같은 수준의 부하가 든다.
+//    
+//    4) circular의 주요 사용 용도
+//       - vector를 대체 - 양방향 push/pop이 필요할 때.
+//                         (양방향 push/pop이 상수시간에 가능하다.)
+//       - list를 대체   - 양방향 push/pop이 필요하면서 Random access가 필요할 때.
+//                         (random access가 가능하다.)
+//       - deque를 대체  - 양방향 push/pop이 필요하면서 빈번한 iteration이 필요할 때.
+//                         (iterator이 deque보다 빠르다.)
+//
+//
+// 2. CGD::vector의 표준 준수 사항
+//    1) (o) Common Container Standard 
+//    2) (o) Reversible Standard 
+//    3) (o) Sequence Container Standard 
+//    4) (x) Assosiative Container Standard 
+//
+//    (*) vector와 deque는 list와 다르게 random access operator를 제공해 준다.
+//
+//
+// 3. exception-safe level.
+//    1) Strong guarantee.
+//       - 아무런 Option이 주어지지 않으면 기본적으로 strong exception safe
+//         guarantee를 제공해준다.
+//      -  걱 Operation을 수행할 때 exception safe확보를 위한 if문장들이 추가
+//         된다.
+//
+//    2) No guarantee (With _CGD_NO_EXCEPTION_GUARANTEE flag)
+//       - flag를 설정하면 No Execption safe guarantee를 제공해줄수 있다.
+//       - 추가적으로 exception처리를 하지 않거나 혹은 안정성보다 빠른 속도를
+//         원할 경우 Exception Guarantee를 제거할 경우 안전을 위한 추가적인
+//         if문들이 제거되어 조금 더 빠른 code를 제공해 줄수 있다.
+//       - 이를 통해 inline처리되는 확률이 늘어나는 것이 속도향상의 핵심이다.
+//
+//
+// 4. Option) CGD::vector의 주요 옵션.
+// 
+//	  1) No auto expand on push_back operation
+//
+//	 	 #define _CGD_VECTOR_NO_AUTOEXPAND
+//
+//        이 옵션은 push나 push_back을 수행할 때 자동으로 expaned하지 않는 Option이다.
+//       자동으로 expand하는 대신 ASSERT Error를 발생시키도록 되어 있다.
+//       물론 이 ASSERT는 Debug 모드일 때만 동작한다.
+//        일반적으로 push_back과 pop_bakc을 매우 빈번하게 사용하는데 있어서 성능이
+//       문제시 될때 이 옵션을 사용한다.
+//        Reserve를 사용하여 미리 크기를 확보한 이후 사용하겠다는 의미히다.
+//        일반적인 경우는 자동으로 expand가 일어나는 것이 편할 수도 있다 하지만
+//       성능을 매우 중요하게 생각되는 곳에서는 오히려 이런 Auto Expand가 성능에
+//       치명적인 문제를 안겨줄 수도 있다. 
+//       push_back시 Auto Expand가 일어날 경우 메모리 할당과 메모리 복사를
+//       유발하게 되고 이것이 빈발하게 될 경우 생각지도 않은 엄청난 성능하락을 가져
+//       올수 있게 되고 Auto Expand를 수행하는 사실을 프로그래머가 눈치채지 못하는
+//       경우가 많아 무슨 이유에서 성능이 떨어지는지 확인하지 못하는 경우가 많다.
+//       이럴 경우 이 옵션을 선택할 경우 Vector가 모두 꽉차게 되면 근야 Assert를 내며
+//       프로그램이 종료하고 이 정보를 획득하여 프로그래머는 Reserve를 통해 충분한
+//       공간을 확보할수 있도록 도와준다.
+//
+//
+// *주의: 이런 주석문들은 comiler에게 쓸모없는 부하를 줄수 있습니다. 따라서...
+//        컴파일 시간이 느리면 이런 주석들을 모조리 지워주시기 바랍니다.
+//
+//
+//-----------------------------------------------------------------------------
+// 1) Definition
+#include "CGD/CGDDefinitions.h"
+
+// 2) CGD Allocator
+#include "CGD/CGDallocator.h"
+#include "CGD/CGDallocatorPool.h"
+
+// 3) Container
+#include "CGD/CGDcircular.h"

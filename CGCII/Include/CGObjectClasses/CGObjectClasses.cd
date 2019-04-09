@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CGMSG_COMMAND_PARAM&lt;TPARAM&gt;" Collapsed="true">
+    <Position X="32.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_COMMAND_PARAM_PTR&lt;TPARAM&gt;" Collapsed="true">
+    <Position X="22" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAEA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_COMMAND_PTRLIST&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_COMMAND_PARAM_PTR_TYPE&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAABAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_FIND_BY_NAME&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAgAAAAAAAAAACQAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_FIND_BY_TYPE&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAgAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_FIND_BY_INDEX&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_SEARCH_BY_NAME&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAgAAAAAAAAAACAAAAAIAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_SEARCH_BY_TYPE&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAgAAABAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_SET&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_RESET&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_GET&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_FUNCTION&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="31.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_FUNCTION_PTR&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_AUTOMATION&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="34" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGMSG_AUTOMATION_PTR&lt;TSOURCE&gt;" Collapsed="true">
+    <Position X="29.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGOBJ&lt;TOBJECT&gt;" Collapsed="true">
+    <Position X="18.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGOBJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGPTR&lt;TREF&gt;" Collapsed="true">
+    <Position X="16.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGPTR.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGOWN&lt;TREF&gt;" Collapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGOWN.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGSHARED&lt;TREF, TENABLE&gt;" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGSHARED.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGAttachable&lt;TTYPE&gt;">
+    <Position X="15.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAACAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGAttachable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGDispatchable">
+    <Position X="15.75" Y="10.5" Width="1.5" />
+    <Members>
+      <Method Name="~ICGDispatchable" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIkAAABAAAABAAACAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGDispatchable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGInitializable">
+    <Position X="11.25" Y="10.5" Width="1.5" />
+    <Members>
+      <Method Name="~ICGInitializable" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGInitializable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGMessageable">
+    <Position X="17.5" Y="8.5" Width="1.5" />
+    <Members>
+      <Method Name="~ICGMessageable" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGMessageable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGNameable">
+    <Position X="19.25" Y="8.5" Width="1.5" />
+    <Members>
+      <Method Name="~ICGNameable" Hidden="true" />
+      <Method Name="IsThis" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAEAABAAAAAAAAAAgAAAAAAAIAABAAAAAAAQAAABAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGNameable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGObjectIdentifiable">
+    <Position X="21" Y="8.5" Width="1.5" />
+    <Members>
+      <Method Name="~ICGObjectIdentifiable" Hidden="true" />
+      <Method Name="GetObjectFactory" Hidden="true" />
+      <Method Name="GetObjectSerial" Hidden="true" />
+      <Method Name="GetObjectType" Hidden="true" />
+      <Method Name="ICGObjectIdentifiable" Hidden="true" />
+      <Method Name="SetObjectSerial" Hidden="true" />
+      <Method Name="SetObjectType" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IEACAAAAACAAAAAAAAAgBAIAAAAEQACAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGObjectIdentifiable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGOpenable">
+    <Position X="9.5" Y="10.5" Width="1.5" />
+    <Members>
+      <Method Name="~ICGOpenable" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGOpenable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGReferenceable">
+    <Position X="12.75" Y="5.25" Width="2" />
+    <Members>
+      <Method Name="~ICGReferenceable" Hidden="true" />
+      <Method Name="GetReferenceCount" Hidden="true" />
+      <Method Name="ICGReferenceable" Hidden="true" />
+      <Method Name="operator--" Hidden="true" />
+      <Method Name="operator++" Hidden="true" />
+      <Method Name="operator+=" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="ResetReferenceCount" Hidden="true" />
+      <Method Name="SetReferenceCount" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Class Name="ICGReferenceable::NoAct" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGReferenceable.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ICGReferenceable::Delete" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGReferenceable.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAABBAAgQAEAAQIAAAAAAAAAAAAgABAgAAo=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGReferenceable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGResource" Collapsed="true">
+    <Position X="19.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGResource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGUpdatable">
+    <Position X="14" Y="8.5" Width="1.5" />
+    <Members>
+      <Method Name="~ICGUpdatable" Hidden="true" />
+      <Method Name="ICGUpdatable" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGUpdatable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NCGSingleton&lt;TINSTANCE, TCREATE&gt;">
+    <Position X="6.25" Y="8.5" Width="3" />
+    <Members>
+      <Field Name="m_csCreate" Hidden="true" />
+      <Method Name="ResetInstance" Hidden="true" />
+      <Method Name="SetInstance" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAABAAAAAQIACAAAAAAAAQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\NCGsingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::ICGExceptionThrowable" Collapsed="true">
+    <Position X="16.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_BadAlloc" Collapsed="true">
+    <Position X="29.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_LengthError" Collapsed="true">
+    <Position X="1.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_LogicError" Collapsed="true">
+    <Position X="4.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_DomainError" Collapsed="true">
+    <Position X="8.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_InvalidArgument" Collapsed="true">
+    <Position X="11.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_OutOfRange" Collapsed="true">
+    <Position X="15.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_OverflowError" Collapsed="true">
+    <Position X="18.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_UnderflowError" Collapsed="true">
+    <Position X="22.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_RangeError" Collapsed="true">
+    <Position X="25.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_RuntimeError" Collapsed="true">
+    <Position X="27.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_BadException" Collapsed="true">
+    <Position X="31" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_BadFunctionCall" Collapsed="true">
+    <Position X="3" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_ConcurrenceLockError" Collapsed="true">
+    <Position X="6.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_AccessDenied" Collapsed="true">
+    <Position X="10" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_NoInitialized" Collapsed="true">
+    <Position X="13.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_NotExist" Collapsed="true">
+    <Position X="17" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_NotReady" Collapsed="true">
+    <Position X="20.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_Failure" Collapsed="true">
+    <Position X="24" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGD::TIME::duration" Collapsed="true">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAGAAAAQAABAQCAAABQAAAAAAAhAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGTimeWindows.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGD::TIME::_POINT" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAgEAIAAEQAEQAAAABAAAEAMQAAAAAIAAABEAgARA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGTimeWindows.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGD::TIME::SYSTEM::time_point" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAgGAoAAEQAAQAAAAgAQAEAEQAAIAAAAAgAEAgARA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGTimeWindows.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGD::TIME::LOCAL::time_point" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAACAgAAAAAAAAAAAgAQAAAAAAAIAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGTimeWindows.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGCloseable">
+    <Position X="9.5" Y="8.5" Width="1.5" />
+    <Members>
+      <Method Name="~ICGCloseable" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAA=</HashCode>
+      <FileName>d:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGCloseable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGDestroyable">
+    <Position X="11.25" Y="8.5" Width="1.5" />
+    <Members>
+      <Method Name="~ICGDestroyable" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ProjectFantasy\CGDK8\Include\CGObjectClasses\ICGDestroyable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="OBJECT_ID" Collapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObject.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGMSG_UI" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAQAAAQAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGMSG_INIT_BY_STRING" Collapsed="true">
+    <Position X="38.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGMSG_OPEN_BY_STRING" Collapsed="true">
+    <Position X="38.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGMSG_INIT_BY_CONTEXT" Collapsed="true">
+    <Position X="36" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGMSG_OPEN_BY_CONTEXT" Collapsed="true">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGMSG_CLOSE_BY_CONTEXT" Collapsed="true">
+    <Position X="9.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGMSG_DESTROY_BY_CONTEXT" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="hash_CGPTR&lt;TTYPE&gt;" Collapsed="true">
+    <Position X="18.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGPTR.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_CGPTR_HASH&lt;TKEY&gt;" Collapsed="true">
+    <Position X="18.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGPTR.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGMSG_LOG" Collapsed="true">
+    <Position X="11.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEEAAAAAAAAAAAAAAAQAAAABAAAIAAAAAAAIAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGTrace.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="LPCGMSG_UI" Collapsed="true">
+    <Position X="13.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObjectMessage.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CGD::TIME::time_point" Collapsed="true">
+    <Position X="1.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGTimeWindows.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="eOBJECT_STATE" Collapsed="true">
+    <Position X="0.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIBgAgAAAAAAAAAARAAAAwAAACgAEAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGDefinitionsObject.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eLOG_TYPE" Collapsed="true">
+    <Position X="0.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAABAAAAAAAAAAAAgAECAAgAAAAAAAAIAgA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGTrace.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eLOG_LEVEL" Collapsed="true">
+    <Position X="0.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAIAAAAEAAAAABAAQAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGObjectClasses\CGTrace.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Malgun Gothic" Size="9" />
+</ClassDiagram>

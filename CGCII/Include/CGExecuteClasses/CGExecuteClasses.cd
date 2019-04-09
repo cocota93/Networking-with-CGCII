@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CGAPI::CIOCompletionPort" Collapsed="true">
+    <Position X="4.75" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAABAAAIAAAQAIAAAgIACAAQAIAAAAhAACAE=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGAPIIOCPCompletionPort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGAPI::CThread" Collapsed="true">
+    <Position X="14" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAACAICAgABAAQIAAAAAQAAAQImCABBAAEAAgYAgA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGAPIThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGAPI::ManagerThread" Collapsed="true">
+    <Position X="20.25" Y="3.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="CGAPI::ManagerThread::TCONTAINER" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGAPIManagerThread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="CGAPI::ManagerThread::ITERATOR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGAPIManagerThread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="CGAPI::ManagerThread::CONST_ITERATOR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGAPIManagerThread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAQAAkADAAgAQAAABAIQBIBQhQBBgAQMACAEQAAQAgc=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGAPIManagerThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGAPI::CThreadPool" Collapsed="true">
+    <Position X="5" Y="12.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="CGAPI::CThreadPool::ITERATOR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGAPIThreadPool.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="CGAPI::CThreadPool::CONST_ITERATOR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGAPIThreadPool.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAABCCEAIAAAAAAIAAAIBSAAgAEAAAAUAAAAAAAAE=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGAPIThreadPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::Manager" Collapsed="true">
+    <Position X="29.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAcACyAgAAAAAEgAIQIAQBABINAwIECAAQgAAgAQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExceptionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_SEHException" Collapsed="true">
+    <Position X="29.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQgAAAAAAAAAAAQAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGException::CThrow_ForceExceptionError" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExceptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutable::NBatch" Collapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <InheritanceLine Type="ICGExecutable" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="13.125" Y="3.112" />
+        <Point X="13.125" Y="3.365" />
+        <Point X="3.75" Y="3.365" />
+        <Point X="3.75" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AiAAAAAAQAAAAAAAIAiAAAAAAAAAAYAAACAAAABAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutableBatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutable::CBatchFunction&lt;TEXECUTE&gt;" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAACgAAAAgAAAAAAAAAAAAAgAAAgA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutableBatchFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutable::CBatchFunctionMember&lt;TPARENT&gt;" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIiAAAigAAAAAAAAAAAAAIEAAAhAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutableBatchFunctionMember.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutable::CBatchNotify&lt;TMESSAGE&gt;" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICACAQAAAAAAQAAAAAwAAAIAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutableBatchNotify.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutable::CBatchWait" Collapsed="true">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAgBAAgAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutableBatchWait.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutable::CFunction&lt;TFUNCTION&gt;" Collapsed="true">
+    <Position X="11.25" Y="4" Width="2" />
+    <InheritanceLine Type="ICGExecutable" ManuallyRouted="true">
+      <Path>
+        <Point X="13.25" Y="3.112" />
+        <Point X="13.25" Y="3.461" />
+        <Point X="12.25" Y="3.461" />
+        <Point X="12.25" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAMAAAACACACAAAAAAAAAAAIAAAAAAAgAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutableFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutable::CFunctionMember&lt;TCLASS&gt;" Collapsed="true">
+    <Position X="13.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAIiAAAiAAAAAAAgAAAIAAIAAAAgAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutableFunctionMember.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutable::CList&lt;TEXECUTABLE&gt;" Collapsed="true">
+    <Position X="9.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BghAAAAAACAAAAAAAQAACAIAAAAgAIAAAAAABAAAAAI=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutableList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutor::CCompletionPort" Collapsed="true">
+    <Position X="7.5" Y="10.75" Width="1.5" />
+    <InheritanceLine Type="ICGExecutor" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.125" Y="9.925" />
+        <Point X="12.125" Y="10.241" />
+        <Point X="8.312" Y="10.241" />
+        <Point X="8.312" Y="10.75" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.901" Y="0.06" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAIAQAAAAAAAAAAAgAAAAAAAAAAACQAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutorCompletionport.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutor::CCompletionPortThread" Collapsed="true">
+    <Position X="7.25" Y="12.75" Width="2" />
+    <InheritanceLine Type="CGExecutor::CCompletionPort">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.468" Y="0.092" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAAAAIAAAAAAAAAAABAAAAAAAAAAEAACAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutorCompletionPortThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutor::Default" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAACCQQAQBAKAAIBSIBEAAgoQIACiAACECCAQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutorDefault.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutor::CList&lt;TEXECUTOR&gt;" Collapsed="true">
+    <Position X="15.75" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABRAAAAAACQAAAQAAAAACAAAAAIgABAAACAARACAAAI=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutorList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutor::CListPriority" Collapsed="true">
+    <Position X="18.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAlAAAAIACAAAAQAQQAACBAIAAIAAAAAAAAAQECAAAQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutorListPriority.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutor::CListThread&lt;TEXECUTOR&gt;" Collapsed="true">
+    <Position X="15.75" Y="13" Width="2.25" />
+    <InheritanceLine Type="CGExecutor::CList&lt;TEXECUTOR&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="16.875" Y="11.57" />
+        <Point X="16.875" Y="13" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.516" Y="0.076" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="CGExecutor::NThread" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.625" Y="11.7" />
+        <Point X="12.625" Y="12.625" />
+        <Point X="16.781" Y="12.625" />
+        <Point X="16.781" Y="13" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.126" Y="0.028" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutorListThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutor::CSchedulable" Collapsed="true">
+    <Position X="11.75" Y="13" Width="1.5" />
+    <InheritanceLine Type="CGExecutor::NThread" FixedFromPoint="true">
+      <Path>
+        <Point X="12.5" Y="11.7" />
+        <Point X="12.5" Y="13" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BABEAAACACAAAAQAAIAACAAAIAAAABAgACAAAACAAAM=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutorSchedulable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutor::CSingleExecute" Collapsed="true">
+    <Position X="9.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAIACAABA0AQIAACBIAAQAACAAAAgAAAECAAAQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutorSingleExecute.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutor::CSingleExecuteThread" Collapsed="true">
+    <Position X="9.5" Y="13" Width="2" />
+    <InheritanceLine Type="CGExecutor::NThread" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.375" Y="11.7" />
+        <Point X="12.375" Y="12.625" />
+        <Point X="10.583" Y="12.625" />
+        <Point X="10.583" Y="13" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.532" Y="0.06" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutorSingleExecuteThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGExecutor::NThread" Collapsed="true">
+    <Position X="11.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAICgACAgAIAAAAAAAAAAAAAAAACAAIAAAAAiAAIA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGExecutorThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGUpdatable::CExecutableBatch" Collapsed="true">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQYQAQAAACAAAAAgIAAAAAAAAUABAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGUpdatableExecutableBatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGSchedulable::NExecutable" Collapsed="true">
+    <Position X="16" Y="4" Width="1.75" />
+    <InheritanceLine Type="ICGSchedulable" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.861" Y="3.233" />
+        <Point X="20.861" Y="3.386" />
+        <Point X="16.948" Y="3.386" />
+        <Point X="16.948" Y="4" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.909" Y="0.06" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAIABAEAAAAAAwAAAAAAAAAABAgAACAAAAEAQAAQ=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGSchedulableExecutable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGSchedulable::Executable::CFunction&lt;TEXECUTE&gt;" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="2" />
+    <InheritanceLine Type="CGSchedulable::NExecutable" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.583" Y="4.82" />
+        <Point X="16.583" Y="5.166" />
+        <Point X="14.708" Y="5.166" Type="JumpStart" />
+        <Point X="14.542" Y="5.166" Type="JumpEnd" />
+        <Point X="12.417" Y="5.166" />
+        <Point X="12.417" Y="5.75" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.532" Y="0.092" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="CGExecutable::CFunction&lt;TFUNCTION&gt;">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.076" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGSchedulableExecutableFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGSchedulable::Executable::CFunctionMember&lt;TCLASS&gt;" Collapsed="true">
+    <Position X="13.5" Y="5.75" Width="2.25" />
+    <InheritanceLine Type="CGSchedulable::NExecutable" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.729" Y="4.82" />
+        <Point X="16.729" Y="5.232" />
+        <Point X="14.812" Y="5.232" />
+        <Point X="14.812" Y="5.75" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.5" Y="0.076" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="CGExecutable::CFunctionMember&lt;TCLASS&gt;">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.076" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGSchedulableExecutableFunctionMember.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGSchedulable::Executable::CList&lt;TEXECUTABLE&gt;" Collapsed="true">
+    <Position X="16" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BghAAAAAAAAAAAAAAQAACAIAAAAgAIAAABAABAAAAAI=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGSchedulableExecutableList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGSchedulable::System::CExceptionObserver" Collapsed="true">
+    <Position X="22" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAAAAAAAQAAAAACgAABAAAAAAAEQAAQAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGSchedulableSystemExceptionObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGSchedulable::System::CPoolGarbageCollection" Collapsed="true">
+    <Position X="18.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBQAAAAAAAAAAAAAAICADBAAAAQAAAAAAQAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGSchedulableSystemPoolGarbageCollection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCGReferenceCountWaiter" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAgQAAAAAACAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGReferenceCountWaiter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGExceptionHandleable" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\ICGExceptionHandleable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGExecutable">
+    <Position X="12" Y="1.75" Width="2.5" />
+    <Members>
+      <Method Name="~ICGExecutable" Hidden="true" />
+      <Field Name="dwBytesTransferred" Hidden="true" />
+      <Method Name="GetConcurrentExecutingCount" Hidden="true" />
+      <Method Name="GetMaxConcurrentExecutingCount" Hidden="true" />
+      <Method Name="ICGExecutable" Hidden="true" />
+      <Field Name="lResult" Hidden="true" />
+      <Field Name="m_countConcurrentExecuting" Hidden="true" />
+      <Field Name="m_countMaxConcurrentExecuting" Hidden="true" />
+      <Method Name="SetMaxConcurrentExecutingCount" Hidden="true" />
+      <Field Name="tickTime" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAEAAAAEAAIAAAAAABIAAKBAAAAAAAAE=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\ICGExecutable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGExecutor">
+    <Position X="11.5" Y="8.5" Width="1.5" />
+    <Members>
+      <Method Name="~ICGExecutor" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\ICGExecutor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICGSchedulable">
+    <Position X="19.75" Y="2" Width="2.5" />
+    <Members>
+      <Method Name="~ICGSchedulable" Hidden="true" />
+      <Method Name="ICGSchedulable" Hidden="true" />
+      <Field Name="m_pexecutor" Hidden="true" />
+      <Method Name="ProcessOnRegister" Hidden="true" />
+      <Method Name="ProcessOnUnregister" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAACAACAAAAAQBAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\ICGSchedulable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CGException::CGDUMP_INFO" Collapsed="true">
+    <Position X="26" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADBAAAAAAAAAAAAAAAACAAACAAAAAAUAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="is_lambda_functor_type&lt;T&gt;" Collapsed="true">
+    <Position X="27.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="is_lambda_functor_type&lt;std::function&lt;T&gt;&gt;" Collapsed="true">
+    <Position X="29.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="is_functor_type&lt;T&gt;" Collapsed="true">
+    <Position X="26" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGMSG_INIT_EXECUTOR_COMPLETIONPORT_THREAD" Collapsed="true">
+    <Position X="29.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CGMSG_DUMP" Collapsed="true">
+    <Position X="27.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAIAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="THREAD_STATISTICS" Collapsed="true">
+    <Position X="26" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgABAQAAAAAAAAAQAACAQAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="THREAD_ID" Collapsed="true">
+    <Position X="27.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TFUNCTION" Collapsed="true">
+    <Position X="26" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TFUNCTION_PARAM" Collapsed="true">
+    <Position X="29.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TFUNCTION_HRESULT" Collapsed="true">
+    <Position X="27.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TFUNCTION_PARAM_HRESULT" Collapsed="true">
+    <Position X="26" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TLAMBDA" Collapsed="true">
+    <Position X="29.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TLAMBDA_HRESULT" Collapsed="true">
+    <Position X="26" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProjectFantasy\CGDK8\Include\CGExecuteClasses\CGDefinitionsExecute.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Malgun Gothic" Size="9" />
+</ClassDiagram>

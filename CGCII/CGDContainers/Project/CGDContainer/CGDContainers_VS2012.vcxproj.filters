@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="CGBUF.cpp">
+      <Filter>Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="CGBuffer.cpp">
+      <Filter>Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="CGMemoryPtr.cpp">
+      <Filter>Buffers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\..\Include\CGBufferClasses\CGBUF.h">
+      <Filter>Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\CGBufferClasses\CGBuffer.h">
+      <Filter>Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\CGBufferClasses\CGMemoryPtr.h">
+      <Filter>Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Containers\CGDallocator.h" />
+    <ClInclude Include="..\..\Containers\CGDallocatorPool.h" />
+    <ClInclude Include="..\..\Containers\CGDarray.h" />
+    <ClInclude Include="..\..\Containers\CGDcircular.h" />
+    <ClInclude Include="..\..\Containers\CGDcircular_list.h" />
+    <ClInclude Include="..\..\Containers\CGDDefinitions.h" />
+    <ClInclude Include="..\..\Containers\CGDflexible.h" />
+    <ClInclude Include="..\..\Containers\CGDidentity.h" />
+    <ClInclude Include="..\..\Containers\CGDidentity_priority.h" />
+    <ClInclude Include="..\..\Containers\CGDplacement_array.h" />
+    <ClInclude Include="..\..\Containers\CGDpriority_queue.h" />
+    <ClInclude Include="..\..\Containers\CGDqueue.h" />
+    <ClInclude Include="..\..\Containers\CGDSeat.h" />
+    <ClInclude Include="..\..\Containers\CGDslist.h" />
+    <ClInclude Include="..\..\Containers\CGDsmart_ptr.h" />
+    <ClInclude Include="..\..\Containers\CGDstack.h" />
+    <ClInclude Include="..\..\Containers\CGDstring.h" />
+    <ClInclude Include="..\..\Containers\CGDvector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Buffers">
+      <UniqueIdentifier>{fb679767-acd9-4fad-9a14-f388f439d2a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

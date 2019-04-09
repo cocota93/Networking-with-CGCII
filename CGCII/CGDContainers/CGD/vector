@@ -1,0 +1,33 @@
+//*****************************************************************************
+//*                                                                           *
+//*                      Cho sanghyun's Game Classes II                       *
+//*                       Ver 6.1 / Release 2012.05.28                        *
+//*                                                                           *
+//*                           Data Template Classes                           *
+//*                                                                           *
+//*                                                                           *
+//*                                                                           *
+//*                                                                           *
+//*  This Program is programmed by Cho SangHyun. sangducks@gmail.com          *
+//*  Best for Game Developement and Optimized for Game Developement.          *
+//*                                                                           *
+//*                   (C) 2008 CGLabs All right reserved.                     *
+//*                           http://www.CGDK.co.kr                           *
+//*                                                                           *
+//*****************************************************************************
+
+#pragma once
+//-----------------------------------------------------------------------------
+//
+// CGD::vector<T>
+//
+//-----------------------------------------------------------------------------
+// 1) Definition
+#include "CGD/CGDDefinitions.h"
+
+// 2) CGD Allocator
+#include "CGD/Containers/CGDallocator.h"
+#include "CGD/Containers/CGDallocatorPool.h"
+
+// 3) Container
+#include "CGD/Containers/CGDvector.h"
