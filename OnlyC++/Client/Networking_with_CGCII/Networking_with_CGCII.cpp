@@ -12,7 +12,7 @@ class CSocket :
 	public CGNet::IO::Connector::NTCP
 {
 public:
-	void SendMessages();
+	virtual void SendMessages();
 	virtual void OnConnect(CGNet::IO::IConnective* _pConnective) override
 	{
 		connected++;
@@ -38,7 +38,8 @@ void CSocket::SendMessages() {
 	CCGBuffer tempBuffer = MEM_POOL_ALLOC(1024); // Alloc the buffer
 	tempBuffer.append<uint32_t>(); // length init
 	tempBuffer.append<uint32_t>(1); // type
-	tempBuffer.append<uint32_t>(1024); // values
+	tempBuffer.append<int>(1024); // values
+	tempBuffer.append<int>(1212); // values
 	tempBuffer.front<uint32_t>() = tempBuffer.len; // write length
 	Send(tempBuffer); // Send
 }
@@ -46,8 +47,8 @@ void CSocket::SendMessages() {
 int _tmain(int argc, _TCHAR* argv[])
 {
 	CGExecutor::Default::InitInstance(CGEXECUTOR_NOTHREAD);
-	CGPTR<CSocket> clients[500];
-	for (int i = 0; i < 500; i++) {
+	CGPTR<CSocket> clients[1];
+	for (int i = 0; i < 1; i++) {
 		auto test = NEW<CSocket>();
 		test->Connect("Localhost", 65535);
 		CGExecutor::Default::RunExecutor();
@@ -64,7 +65,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			if (ch == 27)
 				break;
 			else if (ch == 's' || ch == 'S') {
-				for (int i = 0; i < 500; i++) {
+				for (int i = 0; i < 1; i++) {
 					clients[i]->SendMessages();
 					CGExecutor::Default::RunExecutor();
 				}
