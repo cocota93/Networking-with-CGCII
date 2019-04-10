@@ -1,6 +1,7 @@
 ﻿#include "pch.h"
 #include "../../../CGCII/Include/CGNetSocketTemplates.h"
 
+int received = 0;
 
 class CSocket : public CGNet::Socket::CTCP<>
 {
@@ -16,8 +17,7 @@ class CSocket : public CGNet::Socket::CTCP<>
 
 	virtual int OnMessage(CGMSG& /*_Msg*/) override
 	{
-		printf("Message Received\n");
-
+		received++;
 		return	0;
 	}
 };
@@ -27,6 +27,17 @@ int _tmain(int, _TCHAR*[])
 	auto	pacceptor = NEW<CGNet::CAcceptor<CSocket>>();
 	pacceptor->Start(65535);
 	printf("Server Opened\n");
-	while (_getch() != 27);
+	for (;;)
+	{
+		if (_kbhit())
+		{
+			int	ch = _getch();
+			if (ch == 27)
+				break;
+			else if (ch == 'a' || ch == 'A')
+				printf("received : %d \n", received);
+		}
+		Sleep(1);
+	}
 	return 0;
 }

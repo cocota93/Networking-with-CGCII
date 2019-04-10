@@ -1,28 +1,30 @@
 ﻿#include "pch.h"
 #include "../../../CGCII/Include/CGNetSocketTemplates.h"
+#include <iostream>
 
+int connected = 0;
+int disconnected = 0;
 
-namespace CGMESSAGE
-{
-	const uint32_t	SEND_A = 0x00000020;
-	const uint32_t	SEND_B = 0x00000021;
-}
+using namespace std;
 
-class CSocketClient :
+class CSocket :
 	public CGNet::Socket::CTCP<>,
 	public CGNet::IO::Connector::NTCP
 {
+public:
+	void SendMessages();
 	virtual void OnConnect(CGNet::IO::IConnective* _pConnective) override
 	{
-		printf("Connected\n");
+		connected++;
+		SendMessages();
 	}
 	virtual void OnFailConnect(CGNet::IO::IConnective* _pConnective, uint32_t  _Reason) override
 	{
-		printf("Fail to Connect\n");
+		disconnected++;
 	}
 	virtual void OnDisconnect(uint32_t) override
 	{
-		printf("Disconnected\n");
+		disconnected++;
 	}
 	virtual int OnMessage(CGMSG& _Msg) override
 	{
@@ -32,13 +34,28 @@ class CSocketClient :
 	}
 };
 
+void CSocket::SendMessages() {
+	CCGBuffer tempBuffer = MEM_POOL_ALLOC(1024); // Alloc the buffer
+	tempBuffer.append<uint32_t>(); // length init
+	tempBuffer.append<uint32_t>(1); // type
+	tempBuffer.append<uint32_t>(1024); // values
+	tempBuffer.front<uint32_t>() = tempBuffer.len; // write length
+	Send(tempBuffer); // Send
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	CGExecutor::Default::InitInstance(CGEXECUTOR_NOTHREAD);
-	auto	pSocket = NEW<CSocketClient>();
-	pSocket->Connect("Localhost", 65535);
-
-
+	CGPTR<CSocket> clients[500];
+	for (int i = 0; i < 500; i++) {
+		auto test = NEW<CSocket>();
+		test->Connect("Localhost", 65535);
+		CGExecutor::Default::RunExecutor();
+		clients[i] = test;
+	}
+	CGExecutor::Default::RunExecutor();
+	cout << "Connected : " << connected << endl;
+	cout << "Disconnected : " << disconnected << endl;
 	for (;;)
 	{
 		if (_kbhit())
@@ -46,16 +63,16 @@ int _tmain(int argc, _TCHAR* argv[])
 			int	ch = _getch();
 			if (ch == 27)
 				break;
-			else if (ch == 'a' || ch == 'A')
-				CCGBuffer(MEM_POOL_ALLOC(32)) << uint32_t(12) << uint32_t(CGMESSAGE::SEND_A) << int(100) >> SEND(pSocket);
-			else if (ch == 'b' || ch == 'B')
-				CCGBuffer(MEM_POOL_ALLOC(32)) << uint32_t(8) << uint32_t(CGMESSAGE::SEND_B) >> SEND(pSocket);
+			else if (ch == 's' || ch == 'S') {
+				for (int i = 0; i < 500; i++) {
+					clients[i]->SendMessages();
+					CGExecutor::Default::RunExecutor();
+				}
+			}
 		}
 		CGExecutor::Default::RunExecutor();
 		Sleep(1);
 	}
-	pSocket->CloseSocket();
-	CGExecutor::Default::RunExecutor();
 
 
 	return 0;
